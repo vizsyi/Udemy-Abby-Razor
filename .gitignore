@@ -1,0 +1,19 @@
+# Misc
+.vs
+
+# Compiled source
+AbbyWeb/bin
+
+# dependencies
+AbbyWeb/obj
+
+# Security settings
+AbbyWeb/appsettings.json
+AbbyWeb/appsettings.Development.json
+
+# Visual studio work (Not by me)
+AbbyWeb/wwwroot/lib
+AbbyWeb/wwwroot/css/site.css
+AbbyWeb/wwwroot/js/site.js
+AbbyWeb/wwwroot/favicon.ico
+AbbyWeb/Pages
