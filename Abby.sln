@@ -3,12 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbyWeb", "AbbyWeb\AbbyWeb.csproj", "{4E410E4E-A72B-462D-9B7A-DBCFD7A24CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbbyWeb", "AbbyWeb\AbbyWeb.csproj", "{4E410E4E-A72B-462D-9B7A-DBCFD7A24CBA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88417DC5-BFEC-4B3C-B772-9D36BFBABA4F}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abby.DataAccess", "Abby.DataAccess\Abby.DataAccess.csproj", "{C30DF459-64EC-4827-807C-E40FF24CAF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abby.Utility", "Abby.Utility\Abby.Utility.csproj", "{638B64E6-07E0-44A3-BAD1-F41F5DFC5FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abby.Models", "Abby.Models\Abby.Models.csproj", "{7D4226FF-56E5-4265-AA42-43459228F371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +27,18 @@ Global
 		{4E410E4E-A72B-462D-9B7A-DBCFD7A24CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E410E4E-A72B-462D-9B7A-DBCFD7A24CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E410E4E-A72B-462D-9B7A-DBCFD7A24CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30DF459-64EC-4827-807C-E40FF24CAF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30DF459-64EC-4827-807C-E40FF24CAF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30DF459-64EC-4827-807C-E40FF24CAF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30DF459-64EC-4827-807C-E40FF24CAF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638B64E6-07E0-44A3-BAD1-F41F5DFC5FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638B64E6-07E0-44A3-BAD1-F41F5DFC5FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638B64E6-07E0-44A3-BAD1-F41F5DFC5FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638B64E6-07E0-44A3-BAD1-F41F5DFC5FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4226FF-56E5-4265-AA42-43459228F371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4226FF-56E5-4265-AA42-43459228F371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4226FF-56E5-4265-AA42-43459228F371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4226FF-56E5-4265-AA42-43459228F371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
